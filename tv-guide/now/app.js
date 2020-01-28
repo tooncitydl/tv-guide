@@ -26801,7 +26801,7 @@
         "ngInject";
         e.html5Mode(!0),
         t.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|file|market):/),
-        n.debugEnabled(!1),
+        n.debugEnabled(!0),
         console.logBackup = console.log,
         console.debug = se.noop,
         console.error = se.noop,
